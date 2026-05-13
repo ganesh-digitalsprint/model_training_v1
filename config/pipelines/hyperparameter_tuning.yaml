@@ -1,0 +1,6 @@
+pipeline: hyperparameter_tuning
+backend: ray_tune
+steps:
+  - name: tune
+    module: processors.common.tuning.ray_tune_adapter
+    fn: run_tune

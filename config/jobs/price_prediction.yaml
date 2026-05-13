@@ -1,0 +1,86 @@
+# config/jobs/pricing_job.yaml
+#
+# Configuration for the Competitive Pricing Job.
+# Read by train_launcher.py → pricing_executor.py → pricing_service.py.
+#
+# Run commands
+# ------------
+# Hybrid (default):
+#   python src/train_launcher.py --job pricing_job --env dev
+#
+# Force mode:
+#   python src/train_launcher.py --job pricing_job --env dev --mode rule
+#   python src/train_launcher.py --job pricing_job --env dev --mode ai
+#   python src/train_launcher.py --job pricing_job --env prod --mode hybrid
+
+
+job_name:    price_prediction
+description: "Competitive Pricing — rule / AI / hybrid engine with Delta Lake model"
+model: xgboost
+model_version: v1.0
+model_registry_path: "D:/delta_tables/model_registry"
+# ── Engine mode ───────────────────────────────────────────────────────────────
+# rule   → deterministic business rules only (no model needed)
+# ai     → pure ML revenue optimisation via Delta Lake model
+# hybrid → AI when R² ≥ min_r2_for_ai and MAPE ≤ max_mape_for_ai, else rule
+pricing_mode: hybrid
+ml:
+  default_model:        xgboost
+  active_model_version: v1.0    # set to null to always load the latest active version
+  environment:          dev   
+schema_version: "v1"
+hybrid:
+  min_r2_for_ai:   0.75   # minimum elasticity R² to trust AI pricing
+  max_mape_for_ai: 20.0   # maximum MAPE (%) to trust AI pricing
+pricing:
+  tolerance: 0.05
+  max_price_increase_pct: 10
+  competitor_cap_enabled: true
+ml:
+  default_model: xgboost
+  active_model_version: v1.0
+features:
+  enable_rule_pricing: true
+  enable_ai_pricing: true
+  enable_hybrid_mode: true
+  enable_competitor_cap: true
+  enable_alert_override: true
+ml_training:
+  enable_hyperparameter_tuning: true
+  tuning_method: ray_tune
+  tuning_trials: 20
+  test_size: 0.2
+  random_state: 42
+mlflow:
+mlflow:
+  tracking_uri: "http://127.0.0.1:5000"      # must match --host exactly, not localhost
+  experiment_name: "price_prediction_training"
+  champion_model: dynamic_pricing_xgboost
+  challenger_model: dynamic_pricing_linear
+  champion_stage: Production
+  challenger_stage: Staging
+delta_lake:
+  golden_dataset_path: "D:/delta_tables/golden_pricing_table"
+  csv_fallback_path: "data/raw/data/golden_training_data.csv"
+  schema_version: "v1"
+  expected_columns:
+    - sku_id
+    - price
+    - competitor_price
+    - inventory_level
+    - price_diff_pct
+    - demand_qty
+training_data:
+  feature_columns:
+    - price
+    - competitor_price
+    - inventory_level
+    - price_diff_pct
+  target_column: demand_qty
+
+ray:
+  temp_dir: "D:/ray_tmp"
+  batch_size: 50    
+output:
+  path:   "data/output"
+  format: parquet       

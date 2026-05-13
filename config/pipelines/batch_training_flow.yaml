@@ -1,0 +1,17 @@
+pipeline: batch_training_flow
+steps:
+  - name: load_golden_data
+    module: processors.custom.ingestion.delta_lake_reader
+    fn: read_golden_dataset
+  - name: validate_schema
+    module: processors.common.evaluation.schema_validator
+    fn: validate
+  - name: train_model
+    module: pipeline.train_executor
+    fn: run_training
+  - name: evaluate_model
+    module: processors.common.evaluation.regression_eval
+    fn: evaluate
+  - name: register_model
+    module: pipeline.model_registry_app
+    fn: register

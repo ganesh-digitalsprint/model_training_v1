@@ -1,0 +1,10 @@
+system:
+  environment: qa
+mlflow:
+  tracking_uri: http://mlflow-qa:5000
+validation:
+  min_r2: 0.70
+  max_mae: 50.0
+ray:
+  address: null
+  num_cpus: 4

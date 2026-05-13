@@ -1,0 +1,8 @@
+system:
+  environment: prod
+mlflow:
+  tracking_uri: http://mlflow-prod:5000
+ray:
+  address: "ray://ray-head:10001"
+  num_cpus: 16
+  num_gpus: 2

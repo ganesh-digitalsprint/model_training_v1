@@ -1,0 +1,7 @@
+system:
+  environment: dev
+mlflow:
+  tracking_uri: mlruns
+ray:
+  address: null
+  num_cpus: 2

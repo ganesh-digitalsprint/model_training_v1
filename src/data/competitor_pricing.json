@@ -1,0 +1,5774 @@
+{
+  "results": [
+    {
+      "id": "AUTO-0001",
+      "name": "Aviator Sunglasses",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "85.43",
+          "total_price": "85.43",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0002",
+      "name": "Braided Leather Belt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "27.03",
+          "total_price": "27.03",
+          "stock": true
+        },
+        "target.com": {
+          "price": "34.31",
+          "total_price": "34.31",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "32.21",
+          "total_price": "32.21",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "33.18",
+          "total_price": "33.18",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "34.16",
+          "total_price": "34.16",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0003",
+      "name": "Cable Knit Hat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "27.59",
+          "total_price": "27.59",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "28.63",
+          "total_price": "28.63",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "28.52",
+          "total_price": "28.52",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0004",
+      "name": "Distressed Brown Belt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "23.99",
+          "total_price": "23.99",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "27.77",
+          "total_price": "27.77",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "31.72",
+          "total_price": "31.72",
+          "stock": false
+        },
+        "target.com": {
+          "price": "23.73",
+          "total_price": "23.73",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0005",
+      "name": "Dot Tie",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "42.25",
+          "total_price": "42.25",
+          "stock": false
+        },
+        "target.com": {
+          "price": "32.93",
+          "total_price": "32.93",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "45.93",
+          "total_price": "45.93",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "30.82",
+          "total_price": "30.82",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "31.51",
+          "total_price": "31.51",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0006",
+      "name": "Pearl Necklace",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "116.76",
+          "total_price": "116.76",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "120.01",
+          "total_price": "120.01",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "137.55",
+          "total_price": "137.55",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0007",
+      "name": "Straw Hat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "32.72",
+          "total_price": "32.72",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "33.11",
+          "total_price": "33.11",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0008",
+      "name": "Striped Tie",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "40.18",
+          "total_price": "40.18",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "42.44",
+          "total_price": "42.44",
+          "stock": false
+        },
+        "target.com": {
+          "price": "35.24",
+          "total_price": "35.24",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "41.08",
+          "total_price": "41.08",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0009",
+      "name": "Terry Gloves",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "39.40",
+          "total_price": "39.40",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "59.06",
+          "total_price": "59.06",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "39.68",
+          "total_price": "39.68",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "54.70",
+          "total_price": "54.70",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0010",
+      "name": "Vintage Hat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0011",
+      "name": "Brava Leather Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0012",
+      "name": "Captain's Chair and Ottoman Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "416.53",
+          "total_price": "416.53",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "425.45",
+          "total_price": "425.45",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "403.96",
+          "total_price": "403.96",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0013",
+      "name": "Cottage Chair and Ottoman",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "2343.35",
+          "total_price": "2343.35",
+          "stock": false
+        },
+        "target.com": {
+          "price": "2383.27",
+          "total_price": "2383.27",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "1516.92",
+          "total_price": "1516.92",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "1483.81",
+          "total_price": "1483.81",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0014",
+      "name": "Executive Leather Chair with Footrest",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "32.63",
+          "total_price": "32.63",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "34.13",
+          "total_price": "34.13",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "92.95",
+          "total_price": "92.95",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0015",
+      "name": "Flared Leather Armchair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "58.57",
+          "total_price": "58.57",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "59.51",
+          "total_price": "59.51",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "62.41",
+          "total_price": "62.41",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0016",
+      "name": "Harmony Recliner",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "368.68",
+          "total_price": "368.68",
+          "stock": true
+        },
+        "target.com": {
+          "price": "379.26",
+          "total_price": "379.26",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0017",
+      "name": "Italian Leather Chair and Ottoman",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "391.35",
+          "total_price": "391.35",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "392.63",
+          "total_price": "392.63",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "393.66",
+          "total_price": "393.66",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "402.63",
+          "total_price": "402.63",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0018",
+      "name": "Leather Recliner Chair with Foot Rest Extension",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "54.71",
+          "total_price": "54.71",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "54.14",
+          "total_price": "54.14",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0019",
+      "name": "Mission Style Rocker",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "213.81",
+          "total_price": "213.81",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0020",
+      "name": "Modern Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "185.70",
+          "total_price": "185.70",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "170.91",
+          "total_price": "170.91",
+          "stock": true
+        },
+        "target.com": {
+          "price": "173.89",
+          "total_price": "173.89",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0021",
+      "name": "Roseanna Recliner",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "896.46",
+          "total_price": "896.46",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0022",
+      "name": "Royal Recliner",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "372.02",
+          "total_price": "372.02",
+          "stock": true
+        },
+        "target.com": {
+          "price": "395.34",
+          "total_price": "395.34",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0023",
+      "name": "Spyra Rocker Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "114.84",
+          "total_price": "114.84",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0024",
+      "name": "Streamline Captain's Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "107.43",
+          "total_price": "107.43",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0025",
+      "name": "Streamline Chaise",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "307.71",
+          "total_price": "307.71",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "310.30",
+          "total_price": "310.30",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "378.56",
+          "total_price": "378.56",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0026",
+      "name": "Studio Deck Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "140.75",
+          "total_price": "140.75",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "131.48",
+          "total_price": "131.48",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "133.96",
+          "total_price": "133.96",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0027",
+      "name": "Terra Comfort Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "283.00",
+          "total_price": "283.00",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0028",
+      "name": "uPod Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "38.45",
+          "total_price": "38.45",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "37.92",
+          "total_price": "37.92",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "38.68",
+          "total_price": "38.68",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0029",
+      "name": "Hanson China Cabinet",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0030",
+      "name": "Italiano Entertainment Center",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "512.38",
+          "total_price": "512.38",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0031",
+      "name": "Valencia Oak Sideboard",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "35.70",
+          "total_price": "35.70",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "34.47",
+          "total_price": "34.47",
+          "stock": true
+        },
+        "target.com": {
+          "price": "53.83",
+          "total_price": "53.83",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0032",
+      "name": "Egyptian Oil Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "58.82",
+          "total_price": "58.82",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "61.90",
+          "total_price": "61.90",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0033",
+      "name": "Gaslight Oil Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "39.11",
+          "total_price": "39.11",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0034",
+      "name": "Genie Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "63.73",
+          "total_price": "63.73",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "68.33",
+          "total_price": "68.33",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0035",
+      "name": "Hurricane Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "29.66",
+          "total_price": "29.66",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "29.16",
+          "total_price": "29.16",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0036",
+      "name": "Moroccan Wood Block Candle",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "8.33",
+          "total_price": "8.33",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0037",
+      "name": "Smoked Glass Tea Light Candle",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "5.96",
+          "total_price": "5.96",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "5.78",
+          "total_price": "5.78",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0038",
+      "name": "Think Pink Candle",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "9.60",
+          "total_price": "9.60",
+          "stock": true
+        },
+        "target.com": {
+          "price": "9.15",
+          "total_price": "9.15",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0039",
+      "name": "Elliot Classic Wall Clock",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "105.74",
+          "total_price": "105.74",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0040",
+      "name": "Paris Clock",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "43.17",
+          "total_price": "43.17",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "41.04",
+          "total_price": "41.04",
+          "stock": true
+        },
+        "target.com": {
+          "price": "42.79",
+          "total_price": "42.79",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "44.42",
+          "total_price": "44.42",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0041",
+      "name": "Swiss Detail Clock",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "105.04",
+          "total_price": "105.04",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "104.06",
+          "total_price": "104.06",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0042",
+      "name": "Checkered Pillow",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "18.98",
+          "total_price": "18.98",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0043",
+      "name": "Decorative Throw Pillow",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "9.90",
+          "total_price": "9.90",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "10.36",
+          "total_price": "10.36",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0044",
+      "name": "Embroidered Throw Pillow",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "23.90",
+          "total_price": "23.90",
+          "stock": true
+        },
+        "target.com": {
+          "price": "26.31",
+          "total_price": "26.31",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0045",
+      "name": "Soccer Cushion Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "47.97",
+          "total_price": "47.97",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "48.52",
+          "total_price": "48.52",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "56.28",
+          "total_price": "56.28",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0046",
+      "name": "Velour Pillow",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "37.18",
+          "total_price": "37.18",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "40.30",
+          "total_price": "40.30",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0047",
+      "name": "Italian Glass Bowl",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "115.21",
+          "total_price": "115.21",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0048",
+      "name": "Potbelly Bottle",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "13.06",
+          "total_price": "13.06",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "13.90",
+          "total_price": "13.90",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0049",
+      "name": "Welcome Mat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "30.15",
+          "total_price": "30.15",
+          "stock": true
+        },
+        "target.com": {
+          "price": "29.21",
+          "total_price": "29.21",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0050",
+      "name": "Fiona Desk Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "40.44",
+          "total_price": "40.44",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0051",
+      "name": "Futura Halogen Desk Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "59.93",
+          "total_price": "59.93",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "60.24",
+          "total_price": "60.24",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0052",
+      "name": "Pixel Desk Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "19.85",
+          "total_price": "19.85",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0053",
+      "name": "Acadia Wood Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "95.96",
+          "total_price": "95.96",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "89.20",
+          "total_price": "89.20",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0054",
+      "name": "Antique Wood Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "185.06",
+          "total_price": "185.06",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "177.06",
+          "total_price": "177.06",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0055",
+      "name": "Arch Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "30.13",
+          "total_price": "30.13",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "30.35",
+          "total_price": "30.35",
+          "stock": false
+        },
+        "target.com": {
+          "price": "31.31",
+          "total_price": "31.31",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0056",
+      "name": "Aruba Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "50.97",
+          "total_price": "50.97",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0057",
+      "name": "Barbara Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "88.51",
+          "total_price": "88.51",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "86.94",
+          "total_price": "86.94",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0058",
+      "name": "Berber Bar Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "110.99",
+          "total_price": "110.99",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "120.95",
+          "total_price": "120.95",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0059",
+      "name": "Camelot Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "119.06",
+          "total_price": "119.06",
+          "stock": true
+        },
+        "target.com": {
+          "price": "121.25",
+          "total_price": "121.25",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "126.61",
+          "total_price": "126.61",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0060",
+      "name": "Chair With a View Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "96.34",
+          "total_price": "96.34",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "93.65",
+          "total_price": "93.65",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0061",
+      "name": "Chippendale Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "57.02",
+          "total_price": "57.02",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "61.15",
+          "total_price": "61.15",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0062",
+      "name": "Contemporary Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "106.96",
+          "total_price": "106.96",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "100.19",
+          "total_price": "100.19",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "104.04",
+          "total_price": "104.04",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0063",
+      "name": "Contemporary Windsor Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "89.30",
+          "total_price": "89.30",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "88.83",
+          "total_price": "88.83",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0064",
+      "name": "Contemporary Wood Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "21.53",
+          "total_price": "21.53",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "22.84",
+          "total_price": "22.84",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0065",
+      "name": "Country Charm Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "135.17",
+          "total_price": "135.17",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "131.61",
+          "total_price": "131.61",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0066",
+      "name": "Cross-back Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "113.60",
+          "total_price": "113.60",
+          "stock": true
+        },
+        "target.com": {
+          "price": "107.55",
+          "total_price": "107.55",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0067",
+      "name": "Dante Side Chair ",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "46.32",
+          "total_price": "46.32",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "45.83",
+          "total_price": "45.83",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0068",
+      "name": "Hubbard Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "47.92",
+          "total_price": "47.92",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "49.55",
+          "total_price": "49.55",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0069",
+      "name": "Katahdin Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "150.94",
+          "total_price": "150.94",
+          "stock": false
+        },
+        "target.com": {
+          "price": "145.07",
+          "total_price": "145.07",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0070",
+      "name": "Ladder Back Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "71.06",
+          "total_price": "71.06",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "71.00",
+          "total_price": "71.00",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0071",
+      "name": "Louis Philippe Wood Dining Arm Chairs",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "24.66",
+          "total_price": "24.66",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "24.56",
+          "total_price": "24.56",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0072",
+      "name": "Maxima Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "43.89",
+          "total_price": "43.89",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0073",
+      "name": "Metro Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "45.33",
+          "total_price": "45.33",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "121.06",
+          "total_price": "121.06",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "45.31",
+          "total_price": "45.31",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0074",
+      "name": "Mission Bar Stool",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "89.03",
+          "total_price": "89.03",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "101.64",
+          "total_price": "101.64",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "91.87",
+          "total_price": "91.87",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "85.51",
+          "total_price": "85.51",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0075",
+      "name": "Monroe Side Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "161.19",
+          "total_price": "161.19",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0076",
+      "name": "Moria Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "172.57",
+          "total_price": "172.57",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0077",
+      "name": "Nero Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "124.93",
+          "total_price": "124.93",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "125.50",
+          "total_price": "125.50",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0078",
+      "name": "Rattan Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "84.33",
+          "total_price": "84.33",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "86.58",
+          "total_price": "86.58",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0079",
+      "name": "Richmond Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "95.98",
+          "total_price": "95.98",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "93.19",
+          "total_price": "93.19",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "102.66",
+          "total_price": "102.66",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0080",
+      "name": "Schoolbook Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "115.93",
+          "total_price": "115.93",
+          "stock": true
+        },
+        "target.com": {
+          "price": "112.99",
+          "total_price": "112.99",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "112.05",
+          "total_price": "112.05",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0081",
+      "name": "Shaya Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "87.72",
+          "total_price": "87.72",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "87.67",
+          "total_price": "87.67",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0082",
+      "name": "Smoove Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "150.78",
+          "total_price": "150.78",
+          "stock": true
+        },
+        "target.com": {
+          "price": "143.40",
+          "total_price": "143.40",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "151.85",
+          "total_price": "151.85",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0083",
+      "name": "Smoove Chair with Arms",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "72.54",
+          "total_price": "72.54",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0084",
+      "name": "Spindle Accent Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "90.71",
+          "total_price": "90.71",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0085",
+      "name": "Square Back Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "134.08",
+          "total_price": "134.08",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0086",
+      "name": "Stanza Wood Dining Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "62.50",
+          "total_price": "62.50",
+          "stock": true
+        },
+        "target.com": {
+          "price": "63.04",
+          "total_price": "63.04",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0087",
+      "name": "Terza Wooden Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "123.52",
+          "total_price": "123.52",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "126.28",
+          "total_price": "126.28",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "133.54",
+          "total_price": "133.54",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0088",
+      "name": "Valencia Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "190.24",
+          "total_price": "190.24",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0089",
+      "name": "Vineyard Antique Arm Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "78.84",
+          "total_price": "78.84",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "75.56",
+          "total_price": "75.56",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "77.02",
+          "total_price": "77.02",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0090",
+      "name": "Wood chair with padded seat and back rest",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "113.75",
+          "total_price": "113.75",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0091",
+      "name": "Block Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "32.77",
+          "total_price": "32.77",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "33.52",
+          "total_price": "33.52",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "61.30",
+          "total_price": "61.30",
+          "stock": true
+        },
+        "target.com": {
+          "price": "66.93",
+          "total_price": "66.93",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "37.64",
+          "total_price": "37.64",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0092",
+      "name": "Extension Wood Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "42.60",
+          "total_price": "42.60",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "56.51",
+          "total_price": "56.51",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "42.40",
+          "total_price": "42.40",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "59.06",
+          "total_price": "59.06",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0093",
+      "name": "Jersey Wood Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "209.11",
+          "total_price": "209.11",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "184.78",
+          "total_price": "184.78",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "267.60",
+          "total_price": "267.60",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "204.89",
+          "total_price": "204.89",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "274.09",
+          "total_price": "274.09",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0094",
+      "name": "Oval Dining Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "614.57",
+          "total_price": "614.57",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "641.86",
+          "total_price": "641.86",
+          "stock": false
+        },
+        "target.com": {
+          "price": "852.49",
+          "total_price": "852.49",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "917.51",
+          "total_price": "917.51",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "938.88",
+          "total_price": "938.88",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0095",
+      "name": "Americana Nightstand",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "352.51",
+          "total_price": "352.51",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "342.97",
+          "total_price": "342.97",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "479.08",
+          "total_price": "479.08",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "474.32",
+          "total_price": "474.32",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0096",
+      "name": "Antique Telephone Stand",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "45.55",
+          "total_price": "45.55",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "49.15",
+          "total_price": "49.15",
+          "stock": true
+        },
+        "target.com": {
+          "price": "50.92",
+          "total_price": "50.92",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0097",
+      "name": "Chest of Drawers",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "631.51",
+          "total_price": "631.51",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "114.02",
+          "total_price": "114.02",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "551.50",
+          "total_price": "551.50",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "60.02",
+          "total_price": "60.02",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0098",
+      "name": "Farmhouse Pine Dresser",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "106.11",
+          "total_price": "106.11",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "107.74",
+          "total_price": "107.74",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0099",
+      "name": "Hoodie Sundress",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "29.27",
+          "total_price": "29.27",
+          "stock": true
+        },
+        "target.com": {
+          "price": "22.40",
+          "total_price": "22.40",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "22.44",
+          "total_price": "22.44",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "24.08",
+          "total_price": "24.08",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "48.76",
+          "total_price": "48.76",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0100",
+      "name": "Linen Sundress",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "40.47",
+          "total_price": "40.47",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "64.54",
+          "total_price": "64.54",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "63.31",
+          "total_price": "63.31",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "76.67",
+          "total_price": "76.67",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "73.01",
+          "total_price": "73.01",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0101",
+      "name": "Strappy Sundress",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "42.34",
+          "total_price": "42.34",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "36.28",
+          "total_price": "36.28",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "36.62",
+          "total_price": "36.62",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "22.37",
+          "total_price": "22.37",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0102",
+      "name": "Iron Garden Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "83.10",
+          "total_price": "83.10",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0103",
+      "name": "Port Floor Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "47.41",
+          "total_price": "47.41",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "47.08",
+          "total_price": "47.08",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0104",
+      "name": "Wicker Globe Hanging Floor Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "103.46",
+          "total_price": "103.46",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "100.62",
+          "total_price": "100.62",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0105",
+      "name": "Cowgirl Bag",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "79.03",
+          "total_price": "79.03",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "79.79",
+          "total_price": "79.79",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0106",
+      "name": "Titanium Analog Watch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "129.74",
+          "total_price": "129.74",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "127.55",
+          "total_price": "127.55",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "131.00",
+          "total_price": "131.00",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0107",
+      "name": "Silver Plated Analog Watch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "59.68",
+          "total_price": "59.68",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "63.30",
+          "total_price": "63.30",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0108",
+      "name": "Brushed Steel Analog Watch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "24.96",
+          "total_price": "24.96",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0109",
+      "name": "Cashmere Gloves and Scarf",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "42.41",
+          "total_price": "42.41",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "27.22",
+          "total_price": "27.22",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "28.47",
+          "total_price": "28.47",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "45.51",
+          "total_price": "45.51",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0110",
+      "name": "Dotted Repp Tie",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "38.49",
+          "total_price": "38.49",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "36.30",
+          "total_price": "36.30",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "36.44",
+          "total_price": "36.44",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "35.72",
+          "total_price": "35.72",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "39.33",
+          "total_price": "39.33",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0111",
+      "name": "Everyday Belt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "17.06",
+          "total_price": "17.06",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "20.18",
+          "total_price": "20.18",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "19.15",
+          "total_price": "19.15",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "18.42",
+          "total_price": "18.42",
+          "stock": false
+        },
+        "target.com": {
+          "price": "18.80",
+          "total_price": "18.80",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0112",
+      "name": "Knit Gloves",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "22.68",
+          "total_price": "22.68",
+          "stock": true
+        },
+        "target.com": {
+          "price": "21.82",
+          "total_price": "21.82",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "27.93",
+          "total_price": "27.93",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "22.82",
+          "total_price": "22.82",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0113",
+      "name": "Laptop Briefcase",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "97.43",
+          "total_price": "97.43",
+          "stock": true
+        },
+        "target.com": {
+          "price": "104.98",
+          "total_price": "104.98",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0114",
+      "name": "Organized Wallet",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "33.33",
+          "total_price": "33.33",
+          "stock": true
+        },
+        "target.com": {
+          "price": "33.93",
+          "total_price": "33.93",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0115",
+      "name": "Bordeaux Wine Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "10.74",
+          "total_price": "10.74",
+          "stock": true
+        },
+        "target.com": {
+          "price": "11.00",
+          "total_price": "11.00",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "10.60",
+          "total_price": "10.60",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0116",
+      "name": "Crystal Decanter",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "32.13",
+          "total_price": "32.13",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "29.48",
+          "total_price": "29.48",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "29.68",
+          "total_price": "29.68",
+          "stock": false
+        },
+        "target.com": {
+          "price": "47.41",
+          "total_price": "47.41",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0117",
+      "name": "Gold Foil Glass Bottle",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "17.81",
+          "total_price": "17.81",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0118",
+      "name": "Huey Martini Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "14.09",
+          "total_price": "14.09",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "14.26",
+          "total_price": "14.26",
+          "stock": true
+        },
+        "target.com": {
+          "price": "14.04",
+          "total_price": "14.04",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0119",
+      "name": "Jack and Jill Glass Tumbler",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "12.84",
+          "total_price": "12.84",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "11.79",
+          "total_price": "11.79",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0120",
+      "name": "Juarez Martini Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "26.90",
+          "total_price": "26.90",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0121",
+      "name": "Metrino Wine Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "20.27",
+          "total_price": "20.27",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0122",
+      "name": "Metro Champagne Wine Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "28.26",
+          "total_price": "28.26",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "26.90",
+          "total_price": "26.90",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0123",
+      "name": "Metro Wine Glass Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "8.40",
+          "total_price": "8.40",
+          "stock": false
+        },
+        "target.com": {
+          "price": "9.05",
+          "total_price": "9.05",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0124",
+      "name": "Murano Glass Bottles",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "29.62",
+          "total_price": "29.62",
+          "stock": true
+        },
+        "target.com": {
+          "price": "27.05",
+          "total_price": "27.05",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0125",
+      "name": "Samuel Wine Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "10.20",
+          "total_price": "10.20",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "9.54",
+          "total_price": "9.54",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "9.84",
+          "total_price": "9.84",
+          "stock": false
+        },
+        "target.com": {
+          "price": "7.97",
+          "total_price": "7.97",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0126",
+      "name": "Tumbler Glass",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "19.20",
+          "total_price": "19.20",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "17.42",
+          "total_price": "17.42",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0127",
+      "name": "Vintage Italian Decanter Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "88.08",
+          "total_price": "88.08",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "87.88",
+          "total_price": "87.88",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0128",
+      "name": "Wine Glass Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "58.16",
+          "total_price": "58.16",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "58.27",
+          "total_price": "58.27",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0129",
+      "name": "Leather Clutch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "74.94",
+          "total_price": "74.94",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "125.46",
+          "total_price": "125.46",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "90.35",
+          "total_price": "90.35",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0130",
+      "name": "Leather Stripe Tote",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "125.49",
+          "total_price": "125.49",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "84.74",
+          "total_price": "84.74",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "33.25",
+          "total_price": "33.25",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "99.95",
+          "total_price": "99.95",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0131",
+      "name": "Shoulder Bag",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "124.17",
+          "total_price": "124.17",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0132",
+      "name": "Belted Trench Coat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "63.27",
+          "total_price": "63.27",
+          "stock": true
+        },
+        "target.com": {
+          "price": "64.67",
+          "total_price": "64.67",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "42.56",
+          "total_price": "42.56",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "97.93",
+          "total_price": "97.93",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "41.37",
+          "total_price": "41.37",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0133",
+      "name": "Leather Jacket",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "241.04",
+          "total_price": "241.04",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "229.70",
+          "total_price": "229.70",
+          "stock": false
+        },
+        "target.com": {
+          "price": "354.81",
+          "total_price": "354.81",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0134",
+      "name": "Lightweight Jacket",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "60.72",
+          "total_price": "60.72",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "50.79",
+          "total_price": "50.79",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "71.34",
+          "total_price": "71.34",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "46.27",
+          "total_price": "46.27",
+          "stock": true
+        },
+        "target.com": {
+          "price": "64.73",
+          "total_price": "64.73",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0135",
+      "name": "Military Jacket",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "91.03",
+          "total_price": "91.03",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "141.47",
+          "total_price": "141.47",
+          "stock": false
+        },
+        "target.com": {
+          "price": "87.60",
+          "total_price": "87.60",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "88.34",
+          "total_price": "88.34",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0136",
+      "name": "Mountain Vest",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "127.92",
+          "total_price": "127.92",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "134.17",
+          "total_price": "134.17",
+          "stock": false
+        },
+        "target.com": {
+          "price": "137.60",
+          "total_price": "137.60",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0137",
+      "name": "Sponged Wool Jacket",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "182.89",
+          "total_price": "182.89",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "235.96",
+          "total_price": "235.96",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "175.80",
+          "total_price": "175.80",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0138",
+      "name": "Suede Blazer",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "71.96",
+          "total_price": "71.96",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "27.59",
+          "total_price": "27.59",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "29.30",
+          "total_price": "29.30",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "27.53",
+          "total_price": "27.53",
+          "stock": false
+        },
+        "target.com": {
+          "price": "30.57",
+          "total_price": "30.57",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0139",
+      "name": "Holland Vintage Stool",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "132.39",
+          "total_price": "132.39",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0140",
+      "name": "uPod Stool",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "182.74",
+          "total_price": "182.74",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0141",
+      "name": "Leather Oxford",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "132.41",
+          "total_price": "132.41",
+          "stock": false
+        },
+        "target.com": {
+          "price": "129.63",
+          "total_price": "129.63",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "116.28",
+          "total_price": "116.28",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "201.74",
+          "total_price": "201.74",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0142",
+      "name": "Leather Slip-ons",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "77.80",
+          "total_price": "77.80",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "80.85",
+          "total_price": "80.85",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "127.51",
+          "total_price": "127.51",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "79.13",
+          "total_price": "79.13",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "129.10",
+          "total_price": "129.10",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0143",
+      "name": "Leather Toecap",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "150.89",
+          "total_price": "150.89",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "92.06",
+          "total_price": "92.06",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "91.70",
+          "total_price": "91.70",
+          "stock": true
+        },
+        "target.com": {
+          "price": "94.63",
+          "total_price": "94.63",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "154.48",
+          "total_price": "154.48",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0144",
+      "name": "Varsity Trainer",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "40.20",
+          "total_price": "40.20",
+          "stock": true
+        },
+        "target.com": {
+          "price": "38.67",
+          "total_price": "38.67",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "38.18",
+          "total_price": "38.18",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "41.46",
+          "total_price": "41.46",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0145",
+      "name": "Carriage Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "75.78",
+          "total_price": "75.78",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0146",
+      "name": "Moroccan Hanging Candle Light",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "72.59",
+          "total_price": "72.59",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "77.45",
+          "total_price": "77.45",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "76.49",
+          "total_price": "76.49",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0147",
+      "name": "Sepia Antique Street Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "82.48",
+          "total_price": "82.48",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "87.07",
+          "total_price": "87.07",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0148",
+      "name": "Cashmere Scarf",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "61.17",
+          "total_price": "61.17",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "65.05",
+          "total_price": "65.05",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0149",
+      "name": "Gift Wrap",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0150",
+      "name": "Excalibur Office Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "382.14",
+          "total_price": "382.14",
+          "stock": false
+        },
+        "target.com": {
+          "price": "380.71",
+          "total_price": "380.71",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0151",
+      "name": "Executive Office Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "148.33",
+          "total_price": "148.33",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0152",
+      "name": "Full-Back Executive Office Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "502.06",
+          "total_price": "502.06",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0153",
+      "name": "Mod Swivel Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "84.20",
+          "total_price": "84.20",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0154",
+      "name": "Newsroom Desk Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "76.59",
+          "total_price": "76.59",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "82.16",
+          "total_price": "82.16",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0155",
+      "name": "Swivel Desk Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "52.94",
+          "total_price": "52.94",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0156",
+      "name": "Cushioned Ottoman",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "124.06",
+          "total_price": "124.06",
+          "stock": true
+        },
+        "target.com": {
+          "price": "116.32",
+          "total_price": "116.32",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0157",
+      "name": "Roseanna Storage Ottoman",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "195.56",
+          "total_price": "195.56",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "181.50",
+          "total_price": "181.50",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0158",
+      "name": "Saddleback Leather Ottoman",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0159",
+      "name": "Uptown Ottoman",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "68.22",
+          "total_price": "68.22",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0160",
+      "name": "Folding Beach Chair",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0161",
+      "name": "Boyfriend Jeans",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "53.66",
+          "total_price": "53.66",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "55.57",
+          "total_price": "55.57",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "100.78",
+          "total_price": "100.78",
+          "stock": true
+        },
+        "target.com": {
+          "price": "63.02",
+          "total_price": "63.02",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "63.09",
+          "total_price": "63.09",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0162",
+      "name": "Cargo Linen Slacks",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "27.69",
+          "total_price": "27.69",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "27.21",
+          "total_price": "27.21",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "26.69",
+          "total_price": "26.69",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "32.89",
+          "total_price": "32.89",
+          "stock": true
+        },
+        "target.com": {
+          "price": "27.15",
+          "total_price": "27.15",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0163",
+      "name": "Cargo Pants",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "37.53",
+          "total_price": "37.53",
+          "stock": true
+        },
+        "target.com": {
+          "price": "79.40",
+          "total_price": "79.40",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "40.28",
+          "total_price": "40.28",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0164",
+      "name": "Clam Digger Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "59.71",
+          "total_price": "59.71",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "50.92",
+          "total_price": "50.92",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "42.53",
+          "total_price": "42.53",
+          "stock": true
+        },
+        "target.com": {
+          "price": "53.92",
+          "total_price": "53.92",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "63.70",
+          "total_price": "63.70",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0165",
+      "name": "Corduroy Cargo Pants",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "40.55",
+          "total_price": "40.55",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "36.37",
+          "total_price": "36.37",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "73.65",
+          "total_price": "73.65",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "56.39",
+          "total_price": "56.39",
+          "stock": false
+        },
+        "target.com": {
+          "price": "36.58",
+          "total_price": "36.58",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0166",
+      "name": "Corduroy Pants",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "140.28",
+          "total_price": "140.28",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0167",
+      "name": "Draw-string Capris",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "34.64",
+          "total_price": "34.64",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "66.79",
+          "total_price": "66.79",
+          "stock": false
+        },
+        "target.com": {
+          "price": "83.78",
+          "total_price": "83.78",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "67.76",
+          "total_price": "67.76",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0168",
+      "name": "Khaki Poplin Slacks",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "37.72",
+          "total_price": "37.72",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "36.37",
+          "total_price": "36.37",
+          "stock": true
+        },
+        "target.com": {
+          "price": "49.89",
+          "total_price": "49.89",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "38.49",
+          "total_price": "38.49",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "110.86",
+          "total_price": "110.86",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0169",
+      "name": "Kicky Capris",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "103.48",
+          "total_price": "103.48",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "94.67",
+          "total_price": "94.67",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "78.39",
+          "total_price": "78.39",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "109.70",
+          "total_price": "109.70",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "85.71",
+          "total_price": "85.71",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0170",
+      "name": "Linen Slacks",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "40.90",
+          "total_price": "40.90",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "37.93",
+          "total_price": "37.93",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "41.79",
+          "total_price": "41.79",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "51.41",
+          "total_price": "51.41",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "41.83",
+          "total_price": "41.83",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0171",
+      "name": "Organic Cotton Capris",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "28.73",
+          "total_price": "28.73",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "27.90",
+          "total_price": "27.90",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "27.66",
+          "total_price": "27.66",
+          "stock": true
+        },
+        "target.com": {
+          "price": "28.34",
+          "total_price": "28.34",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "29.24",
+          "total_price": "29.24",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0172",
+      "name": "Painter Capris ",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "42.07",
+          "total_price": "42.07",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "66.18",
+          "total_price": "66.18",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "31.80",
+          "total_price": "31.80",
+          "stock": true
+        },
+        "target.com": {
+          "price": "29.94",
+          "total_price": "29.94",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "32.40",
+          "total_price": "32.40",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0173",
+      "name": "Painter Pants",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "48.46",
+          "total_price": "48.46",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "35.91",
+          "total_price": "35.91",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "31.77",
+          "total_price": "31.77",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "85.16",
+          "total_price": "85.16",
+          "stock": true
+        },
+        "target.com": {
+          "price": "29.19",
+          "total_price": "29.19",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0174",
+      "name": "Rugged Khakis",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "138.12",
+          "total_price": "138.12",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0175",
+      "name": "Sailor Capris",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "47.21",
+          "total_price": "47.21",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "44.46",
+          "total_price": "44.46",
+          "stock": true
+        },
+        "target.com": {
+          "price": "119.77",
+          "total_price": "119.77",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "119.93",
+          "total_price": "119.93",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "144.22",
+          "total_price": "144.22",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0176",
+      "name": "Straight Leg Jeans",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "56.83",
+          "total_price": "56.83",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "85.90",
+          "total_price": "85.90",
+          "stock": false
+        },
+        "target.com": {
+          "price": "87.19",
+          "total_price": "87.19",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "88.56",
+          "total_price": "88.56",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "81.60",
+          "total_price": "81.60",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0177",
+      "name": "Straight Leg Khakis",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "49.56",
+          "total_price": "49.56",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "35.93",
+          "total_price": "35.93",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "37.35",
+          "total_price": "37.35",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "48.07",
+          "total_price": "48.07",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "45.80",
+          "total_price": "45.80",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0178",
+      "name": "Tropical Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "54.91",
+          "total_price": "54.91",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "21.58",
+          "total_price": "21.58",
+          "stock": false
+        },
+        "target.com": {
+          "price": "57.62",
+          "total_price": "57.62",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "22.36",
+          "total_price": "22.36",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "49.92",
+          "total_price": "49.92",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0179",
+      "name": "Weekend Jeans",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "119.19",
+          "total_price": "119.19",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0180",
+      "name": "Weekend Trouser",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "50.18",
+          "total_price": "50.18",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "45.65",
+          "total_price": "45.65",
+          "stock": false
+        },
+        "target.com": {
+          "price": "56.59",
+          "total_price": "56.59",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "57.03",
+          "total_price": "57.03",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "62.09",
+          "total_price": "62.09",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0181",
+      "name": "Army Radio",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "68.45",
+          "total_price": "68.45",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0182",
+      "name": "Era Radio",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "44.57",
+          "total_price": "44.57",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0183",
+      "name": "Boat neck Tee",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "62.98",
+          "total_price": "62.98",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "32.84",
+          "total_price": "32.84",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "55.94",
+          "total_price": "55.94",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "62.91",
+          "total_price": "62.91",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "34.90",
+          "total_price": "34.90",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0184",
+      "name": "Bold Button Top",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "118.47",
+          "total_price": "118.47",
+          "stock": true
+        },
+        "target.com": {
+          "price": "97.27",
+          "total_price": "97.27",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "148.59",
+          "total_price": "148.59",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0185",
+      "name": "Casual Cap Sleeve Tee",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "53.49",
+          "total_price": "53.49",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "44.53",
+          "total_price": "44.53",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "38.32",
+          "total_price": "38.32",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "80.90",
+          "total_price": "80.90",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "81.54",
+          "total_price": "81.54",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0186",
+      "name": "Classic Rugby Shirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "19.43",
+          "total_price": "19.43",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "19.57",
+          "total_price": "19.57",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "18.60",
+          "total_price": "18.60",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "29.79",
+          "total_price": "29.79",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "29.13",
+          "total_price": "29.13",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0187",
+      "name": "Cowboy Shirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "35.48",
+          "total_price": "35.48",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "50.69",
+          "total_price": "50.69",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "35.86",
+          "total_price": "35.86",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "38.39",
+          "total_price": "38.39",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0188",
+      "name": "Double Layer Polo",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "30.63",
+          "total_price": "30.63",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "29.41",
+          "total_price": "29.41",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "30.37",
+          "total_price": "30.37",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "30.25",
+          "total_price": "30.25",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "30.24",
+          "total_price": "30.24",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0189",
+      "name": "Everyday Tank Top",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "96.76",
+          "total_price": "96.76",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "88.00",
+          "total_price": "88.00",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "76.05",
+          "total_price": "76.05",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "83.49",
+          "total_price": "83.49",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0190",
+      "name": "Long Sleeve Soft Touch Hoodie",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "18.97",
+          "total_price": "18.97",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "26.61",
+          "total_price": "26.61",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "27.72",
+          "total_price": "27.72",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "20.62",
+          "total_price": "20.62",
+          "stock": true
+        },
+        "target.com": {
+          "price": "22.03",
+          "total_price": "22.03",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0191",
+      "name": "Metallic Tank Top",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "58.19",
+          "total_price": "58.19",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "99.61",
+          "total_price": "99.61",
+          "stock": true
+        },
+        "target.com": {
+          "price": "60.61",
+          "total_price": "60.61",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "62.33",
+          "total_price": "62.33",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0192",
+      "name": "Off the Shoulder Shirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "28.18",
+          "total_price": "28.18",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "30.52",
+          "total_price": "30.52",
+          "stock": true
+        },
+        "target.com": {
+          "price": "69.42",
+          "total_price": "69.42",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "37.96",
+          "total_price": "37.96",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "67.85",
+          "total_price": "67.85",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0193",
+      "name": "Plaid Button Down",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "40.04",
+          "total_price": "40.04",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "41.03",
+          "total_price": "41.03",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "33.32",
+          "total_price": "33.32",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "39.68",
+          "total_price": "39.68",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0194",
+      "name": "Polka Dot Blouse",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "56.29",
+          "total_price": "56.29",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "39.26",
+          "total_price": "39.26",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "37.68",
+          "total_price": "37.68",
+          "stock": true
+        },
+        "target.com": {
+          "price": "37.62",
+          "total_price": "37.62",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "55.42",
+          "total_price": "55.42",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0195",
+      "name": "Poplin Blouse",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "29.78",
+          "total_price": "29.78",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "50.96",
+          "total_price": "50.96",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "34.69",
+          "total_price": "34.69",
+          "stock": true
+        },
+        "target.com": {
+          "price": "53.95",
+          "total_price": "53.95",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "28.77",
+          "total_price": "28.77",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0196",
+      "name": "Short Sleeve Plaid Button Down",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "26.98",
+          "total_price": "26.98",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "26.52",
+          "total_price": "26.52",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "36.27",
+          "total_price": "36.27",
+          "stock": false
+        },
+        "target.com": {
+          "price": "35.62",
+          "total_price": "35.62",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "41.23",
+          "total_price": "41.23",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0197",
+      "name": "Short-sleeved Blouse",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "82.48",
+          "total_price": "82.48",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "80.42",
+          "total_price": "80.42",
+          "stock": true
+        },
+        "target.com": {
+          "price": "80.36",
+          "total_price": "80.36",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "80.69",
+          "total_price": "80.69",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0198",
+      "name": "Soft Cotton Tunic",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "46.33",
+          "total_price": "46.33",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "36.04",
+          "total_price": "36.04",
+          "stock": true
+        },
+        "target.com": {
+          "price": "50.63",
+          "total_price": "50.63",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0199",
+      "name": "Striped Button Down",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "47.39",
+          "total_price": "47.39",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "46.64",
+          "total_price": "46.64",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "48.89",
+          "total_price": "48.89",
+          "stock": false
+        },
+        "target.com": {
+          "price": "46.02",
+          "total_price": "46.02",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0200",
+      "name": "Tank Tee with Pocket",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "55.65",
+          "total_price": "55.65",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "91.68",
+          "total_price": "91.68",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "142.08",
+          "total_price": "142.08",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0201",
+      "name": "Weekend T-Shirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "19.55",
+          "total_price": "19.55",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "17.48",
+          "total_price": "17.48",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "20.06",
+          "total_price": "20.06",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "12.96",
+          "total_price": "12.96",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "12.52",
+          "total_price": "12.52",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0202",
+      "name": "Belted Rugged Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "36.15",
+          "total_price": "36.15",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "28.79",
+          "total_price": "28.79",
+          "stock": false
+        },
+        "target.com": {
+          "price": "28.04",
+          "total_price": "28.04",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "27.34",
+          "total_price": "27.34",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "27.77",
+          "total_price": "27.77",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0203",
+      "name": "Board Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "37.10",
+          "total_price": "37.10",
+          "stock": true
+        },
+        "target.com": {
+          "price": "32.54",
+          "total_price": "32.54",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "32.86",
+          "total_price": "32.86",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "42.24",
+          "total_price": "42.24",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "42.62",
+          "total_price": "42.62",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0204",
+      "name": "Cargo Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "33.92",
+          "total_price": "33.92",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "40.62",
+          "total_price": "40.62",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "28.35",
+          "total_price": "28.35",
+          "stock": true
+        },
+        "target.com": {
+          "price": "40.69",
+          "total_price": "40.69",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "41.76",
+          "total_price": "41.76",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0205",
+      "name": "Distressed Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "32.99",
+          "total_price": "32.99",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "34.23",
+          "total_price": "34.23",
+          "stock": true
+        },
+        "target.com": {
+          "price": "31.45",
+          "total_price": "31.45",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "31.34",
+          "total_price": "31.34",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "31.77",
+          "total_price": "31.77",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0206",
+      "name": "Fabulous City Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "50.46",
+          "total_price": "50.46",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "30.05",
+          "total_price": "30.05",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "38.87",
+          "total_price": "38.87",
+          "stock": true
+        },
+        "target.com": {
+          "price": "23.65",
+          "total_price": "23.65",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "31.45",
+          "total_price": "31.45",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0207",
+      "name": "Jean Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "18.57",
+          "total_price": "18.57",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "34.60",
+          "total_price": "34.60",
+          "stock": true
+        },
+        "target.com": {
+          "price": "41.68",
+          "total_price": "41.68",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "19.33",
+          "total_price": "19.33",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "79.86",
+          "total_price": "79.86",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0208",
+      "name": "Linen Bermuda Shorts",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "113.55",
+          "total_price": "113.55",
+          "stock": true
+        },
+        "target.com": {
+          "price": "72.08",
+          "total_price": "72.08",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "143.25",
+          "total_price": "143.25",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "141.41",
+          "total_price": "141.41",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "98.37",
+          "total_price": "98.37",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0209",
+      "name": "Cherry Coffee Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "264.29",
+          "total_price": "264.29",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0210",
+      "name": "Country Side Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "122.84",
+          "total_price": "122.84",
+          "stock": false
+        },
+        "target.com": {
+          "price": "111.79",
+          "total_price": "111.79",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0211",
+      "name": "Country Side Table II",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "84.86",
+          "total_price": "84.86",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0212",
+      "name": "Hepplewhite Side Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "143.18",
+          "total_price": "143.18",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "146.21",
+          "total_price": "146.21",
+          "stock": true
+        },
+        "target.com": {
+          "price": "151.53",
+          "total_price": "151.53",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "152.53",
+          "total_price": "152.53",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0213",
+      "name": "Outdoor Storage Chest",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "176.74",
+          "total_price": "176.74",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "167.46",
+          "total_price": "167.46",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "135.07",
+          "total_price": "135.07",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "133.17",
+          "total_price": "133.17",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "135.30",
+          "total_price": "135.30",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0214",
+      "name": "Sweden End Table",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "87.23",
+          "total_price": "87.23",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0215",
+      "name": "A-Line Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "88.78",
+          "total_price": "88.78",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "97.45",
+          "total_price": "97.45",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "103.44",
+          "total_price": "103.44",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "63.99",
+          "total_price": "63.99",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0216",
+      "name": "Frilled Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "55.91",
+          "total_price": "55.91",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "53.64",
+          "total_price": "53.64",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "56.58",
+          "total_price": "56.58",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "87.65",
+          "total_price": "87.65",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0217",
+      "name": "Peasant Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "60.35",
+          "total_price": "60.35",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "97.16",
+          "total_price": "97.16",
+          "stock": true
+        },
+        "target.com": {
+          "price": "84.06",
+          "total_price": "84.06",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "78.98",
+          "total_price": "78.98",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "61.15",
+          "total_price": "61.15",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0218",
+      "name": "Pleated Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "48.47",
+          "total_price": "48.47",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "64.39",
+          "total_price": "64.39",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0219",
+      "name": "Silk Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "72.49",
+          "total_price": "72.49",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "81.92",
+          "total_price": "81.92",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "93.23",
+          "total_price": "93.23",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "72.37",
+          "total_price": "72.37",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "71.88",
+          "total_price": "71.88",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0220",
+      "name": "Sporty Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "55.84",
+          "total_price": "55.84",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "55.19",
+          "total_price": "55.19",
+          "stock": true
+        },
+        "target.com": {
+          "price": "53.22",
+          "total_price": "53.22",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "51.01",
+          "total_price": "51.01",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "50.35",
+          "total_price": "50.35",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0221",
+      "name": "Summer Mini Skirt",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "37.96",
+          "total_price": "37.96",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "36.73",
+          "total_price": "36.73",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "87.08",
+          "total_price": "87.08",
+          "stock": true
+        },
+        "target.com": {
+          "price": "49.82",
+          "total_price": "49.82",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "49.86",
+          "total_price": "49.86",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0222",
+      "name": "Microfiber Contemporary Sofa Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "1868.72",
+          "total_price": "1868.72",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0223",
+      "name": "Fabric Contemporary Sofa Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "1186.53",
+          "total_price": "1186.53",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "1143.11",
+          "total_price": "1143.11",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0224",
+      "name": "Leather Contemporary Sofa Set",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "2507.15",
+          "total_price": "2507.15",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "2589.90",
+          "total_price": "2589.90",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0225",
+      "name": "Fortuna Leather Couch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "478.72",
+          "total_price": "478.72",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0226",
+      "name": "Groove Love Seat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "57.47",
+          "total_price": "57.47",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "57.47",
+          "total_price": "57.47",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "54.03",
+          "total_price": "54.03",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0227",
+      "name": "Jet Set Couch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "80.10",
+          "total_price": "80.10",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "86.38",
+          "total_price": "86.38",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0228",
+      "name": "Maggiore Leather Loveseat",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "484.43",
+          "total_price": "484.43",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0229",
+      "name": "Milano Sofa and Chair Collection",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "77.68",
+          "total_price": "77.68",
+          "stock": true
+        },
+        "target.com": {
+          "price": "79.84",
+          "total_price": "79.84",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0230",
+      "name": "Neat Love Seat Couch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "36.38",
+          "total_price": "36.38",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0231",
+      "name": "Sofa and Chair Collection",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "50.95",
+          "total_price": "50.95",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "51.19",
+          "total_price": "51.19",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "51.14",
+          "total_price": "51.14",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0232",
+      "name": "Vintage Couch",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0233",
+      "name": "Vivian Organic Cotton Sofa",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "1577.97",
+          "total_price": "1577.97",
+          "stock": false
+        },
+        "bestbuy.com": {
+          "price": "1485.85",
+          "total_price": "1485.85",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0234",
+      "name": "Dragonesque Storage Box",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "70.26",
+          "total_price": "70.26",
+          "stock": true
+        },
+        "target.com": {
+          "price": "67.15",
+          "total_price": "67.15",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0235",
+      "name": "Treasure Box",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "33.07",
+          "total_price": "33.07",
+          "stock": true
+        },
+        "target.com": {
+          "price": "45.62",
+          "total_price": "45.62",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "48.70",
+          "total_price": "48.70",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "47.21",
+          "total_price": "47.21",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "52.86",
+          "total_price": "52.86",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0236",
+      "name": "Velvet-lined Storage Box",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "66.03",
+          "total_price": "66.03",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0237",
+      "name": "Wood Lock Box",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "52.33",
+          "total_price": "52.33",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "58.01",
+          "total_price": "58.01",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "127.52",
+          "total_price": "127.52",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "84.44",
+          "total_price": "84.44",
+          "stock": true
+        },
+        "target.com": {
+          "price": "76.34",
+          "total_price": "76.34",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0238",
+      "name": "Antique Table Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "50.69",
+          "total_price": "50.69",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0239",
+      "name": "Cottage Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "38.50",
+          "total_price": "38.50",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0240",
+      "name": "Deco-Retro Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "38.49",
+          "total_price": "38.49",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0241",
+      "name": "Gaudy Bead Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "target.com": {
+          "price": "20.19",
+          "total_price": "20.19",
+          "stock": false
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0242",
+      "name": "Glass Crystal Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "60.13",
+          "total_price": "60.13",
+          "stock": false
+        },
+        "ebay.com": {
+          "price": "59.62",
+          "total_price": "59.62",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "59.22",
+          "total_price": "59.22",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0243",
+      "name": "Gumdrop Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "28.34",
+          "total_price": "28.34",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "28.34",
+          "total_price": "28.34",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0244",
+      "name": "Modern Lava Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "29.53",
+          "total_price": "29.53",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0245",
+      "name": "Moroccan Lantern",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "41.29",
+          "total_price": "41.29",
+          "stock": true
+        }
+      },
+      "my_position": "more_expensive"
+    },
+    {
+      "id": "AUTO-0246",
+      "name": "Silkleaf Table Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "28.69",
+          "total_price": "28.69",
+          "stock": true
+        },
+        "walmart.com": {
+          "price": "29.06",
+          "total_price": "29.06",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0247",
+      "name": "Something's Fishy Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "38.41",
+          "total_price": "38.41",
+          "stock": false
+        },
+        "amazon.com": {
+          "price": "38.74",
+          "total_price": "38.74",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0248",
+      "name": "Vermont Table Lamp",
+      "product_code": null,
+      "barcode": null,
+      "summary": {},
+      "my_position": "not_available"
+    },
+    {
+      "id": "AUTO-0249",
+      "name": "Classic Flip Flop",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "84.22",
+          "total_price": "84.22",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "65.01",
+          "total_price": "65.01",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "55.39",
+          "total_price": "55.39",
+          "stock": true
+        },
+        "target.com": {
+          "price": "52.32",
+          "total_price": "52.32",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "88.82",
+          "total_price": "88.82",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0250",
+      "name": "Classy Slingback",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "bestbuy.com": {
+          "price": "105.88",
+          "total_price": "105.88",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "112.14",
+          "total_price": "112.14",
+          "stock": false
+        },
+        "target.com": {
+          "price": "102.00",
+          "total_price": "102.00",
+          "stock": false
+        },
+        "walmart.com": {
+          "price": "103.30",
+          "total_price": "103.30",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "99.20",
+          "total_price": "99.20",
+          "stock": false
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0251",
+      "name": "Comfort Sneaker",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "amazon.com": {
+          "price": "120.85",
+          "total_price": "120.85",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "99.64",
+          "total_price": "99.64",
+          "stock": false
+        },
+        "target.com": {
+          "price": "132.39",
+          "total_price": "132.39",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "128.42",
+          "total_price": "128.42",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0252",
+      "name": "Elegant Sandal",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "walmart.com": {
+          "price": "65.51",
+          "total_price": "65.51",
+          "stock": false
+        },
+        "target.com": {
+          "price": "63.80",
+          "total_price": "63.80",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "64.56",
+          "total_price": "64.56",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "72.43",
+          "total_price": "72.43",
+          "stock": true
+        },
+        "ebay.com": {
+          "price": "101.70",
+          "total_price": "101.70",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    },
+    {
+      "id": "AUTO-0253",
+      "name": "Peep Toe Pump",
+      "product_code": null,
+      "barcode": null,
+      "summary": {
+        "ebay.com": {
+          "price": "74.24",
+          "total_price": "74.24",
+          "stock": true
+        },
+        "target.com": {
+          "price": "102.15",
+          "total_price": "102.15",
+          "stock": true
+        },
+        "bestbuy.com": {
+          "price": "83.66",
+          "total_price": "83.66",
+          "stock": true
+        },
+        "amazon.com": {
+          "price": "86.34",
+          "total_price": "86.34",
+          "stock": true
+        }
+      },
+      "my_position": "cheapest"
+    }
+  ],
+  "nextURL": "https://prisync.com/api/v2/list/product/start/100"
+}

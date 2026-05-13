@@ -1,0 +1,121 @@
+job_name: catalog_gap_analysis
+description: "Semantic intent mapping and product specification gap detection"
+model: xgboost
+model_version: v1.0
+model_registry_path: "D:/delta_tables/model_registry"
+environment: dev
+schema_version: "v1"
+
+# ─────────────────────────────────────────────
+# Intent Mapping Configuration
+# ─────────────────────────────────────────────
+
+intent_mapping:
+  enabled: true
+  confidence_threshold: 0.70
+  multi_intent_enabled: false
+  fallback_strategy: ignore_low_confidence
+
+# ─────────────────────────────────────────────
+# Feature Engineering
+# ─────────────────────────────────────────────
+
+preprocessing:
+  lowercase: true
+  remove_punctuation: true
+  whitespace_cleanup: true
+  remove_filler_phrases: true
+  filler_phrases:
+    - personally
+    - tbh
+    - in my opinion
+
+# ─────────────────────────────────────────────
+# Delta Lake Paths
+# ─────────────────────────────────────────────
+
+delta_lake:
+
+  bronze_table_path: "D:/delta_tables/catalog_queries_bronze"
+
+  silver_table_path: "D:/delta_tables/catalog_queries_silver"
+
+  gaps_table_path: "D:/delta_tables/product_gaps"
+
+# ─────────────────────────────────────────────
+# Expected Schema
+# ─────────────────────────────────────────────
+
+expected_columns:
+
+  - user_pseudo_id
+  - search_query
+  - sku
+  - standard_attribute_key
+  - confidence_score
+  - model_version
+  - event_timestamp
+
+# ─────────────────────────────────────────────
+# Training Configuration
+# ─────────────────────────────────────────────
+
+training_data:
+
+  feature_columns:
+
+    - search_query
+
+  target_column: standard_attribute_key
+
+ml_training:
+
+  enable_hyperparameter_tuning: true
+
+  tuning_method: ray_tune
+
+  tuning_trials: 20
+
+  test_size: 0.2
+
+  random_state: 42
+
+# ─────────────────────────────────────────────
+# MLflow Tracking
+# ─────────────────────────────────────────────
+
+mlflow:
+
+  tracking_uri: "http://127.0.0.1:5000"
+
+  experiment_name: "catalog_gap_analysis"
+
+  champion_model: intent_mapping_xgboost
+
+  champion_stage: Production
+
+# ─────────────────────────────────────────────
+# Redis + Celery
+# ─────────────────────────────────────────────
+
+async_processing:
+
+  enabled: true
+
+  broker: redis
+
+  redis_url: "redis://localhost:6379/0"
+
+  retry_enabled: true
+
+  max_retries: 3
+
+# ─────────────────────────────────────────────
+# Output
+# ─────────────────────────────────────────────
+
+output:
+
+  path: "data/output"
+
+  format: parquet

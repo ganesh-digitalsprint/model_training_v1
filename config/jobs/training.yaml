@@ -1,0 +1,43 @@
+job_name: training
+description: "Dynamic Pricing Demand Elasticity Model Training"
+model: xgboost
+model_version: v1.0
+pricing:
+  tolerance: 0.05
+  max_price_increase_pct: 10
+  competitor_cap_enabled: true
+ml:
+  default_model: xgboost
+  active_model_version: v1.0
+ml_training:
+  enable_hyperparameter_tuning: true
+  tuning_method: ray_tune
+  tuning_trials: 20
+  test_size: 0.2
+  random_state: 42
+delta_lake:
+  golden_dataset_path: "D:/delta_tables/golden_pricing_table"
+  csv_fallback_path: "data/raw/data/golden_training_data.csv"
+  schema_version: "v1"
+  delta_lake:
+  model_registry_path: "D:/delta_tables/model_registry"  # ← Delta binary blob
+  model_local_path:    "data/raw/ml/models"               # ← local .pkl file
+  expected_columns:
+    - sku_id
+    - price
+    - competitor_price
+    - inventory_level
+    - price_diff_pct
+    - demand_qty
+training_data:
+  feature_columns:
+    - price
+    - competitor_price
+    - inventory_level
+    - price_diff_pct
+  target_column: demand_qty
+mlflow:
+ tracking_uri: "http://127.0.0.1:5000"      # must match --host exactly, not localhost
+ experiment_name: "price_prediction_training"
+ray:
+  temp_dir: "D:/ray_tmp"

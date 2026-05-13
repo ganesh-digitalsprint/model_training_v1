@@ -1,0 +1,16 @@
+pandas
+sqlalchemy
+pymysql
+scikit-learn
+FastAPI
+uvicorn
+xgboost
+pydantic
+pydantic-settings
+python-dotenv
+pyyaml
+watchdog
+mlflow
+matplotlib
+ray
+ray[tune]
