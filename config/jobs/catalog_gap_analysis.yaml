@@ -5,7 +5,8 @@ model_version: v1.0
 model_registry_path: "D:/delta_tables/model_registry"
 environment: dev
 schema_version: "v1"
-
+ray:
+  temp_dir: "D:/ray_tmp"
 # ─────────────────────────────────────────────
 # Intent Mapping Configuration
 # ─────────────────────────────────────────────

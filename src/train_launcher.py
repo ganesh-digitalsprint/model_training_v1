@@ -1,13 +1,17 @@
 """
 train_launcher.py
-CLI entry point for ALL jobs — training and pricing.
+-----------------
+CLI entry point for ALL jobs — training, pricing, and any future job.
+
+Config is loaded directly from YAML files.  No SQLite, no DB bootstrap.
 
 Usage
 -----
-# Training
+# Any training job — just swap the YAML, zero code change
 python src/train_launcher.py --job price_prediction_training --env dev
 python src/train_launcher.py --job price_prediction_training --env prod --model xgboost --version v2.0
 python src/train_launcher.py --job price_prediction_training --env dev --csv-fallback data/raw/data/golden_training_data.csv
+python src/train_launcher.py --job catalog_gap_analysis --env dev
 
 # Pricing
 python src/train_launcher.py --job pricing_job --env dev
@@ -15,71 +19,75 @@ python src/train_launcher.py --job pricing_job --env prod --mode hybrid
 python src/train_launcher.py --job pricing_job --env dev  --mode rule
 python src/train_launcher.py --job pricing_job --env dev  --mode ai --model xgboost --version v1.0
 python src/train_launcher.py --job pricing_job --env dev  --golden-fallback data/raw/data/golden_training_data.csv
+
+How to add a new training job
+------------------------------
+1. Create  config/jobs/<new_job>.yaml  with training_data / delta_lake / mlflow / ml_training sections.
+2. Run:    python src/train_launcher.py --job <new_job> --env dev
+   train_executor.py handles it automatically — no other file needs to change.
 """
 
+from __future__ import annotations
+
 import argparse
-import sys
 import os
+import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
+# ── make sure src/ is on sys.path so sibling packages resolve ────────────────
 _THIS_FILE = os.path.abspath(__file__)
 _SRC_DIR   = os.path.dirname(_THIS_FILE)
 if _SRC_DIR not in sys.path:
     sys.path.insert(0, _SRC_DIR)
+os.environ["PYTHONIOENCODING"] = "utf-8"
 
-from bootstrap.train_config_loader import (
-    load_training_config, init_config_db, bootstrap_config_from_yaml,
-    create_new_config_version)
-from bootstrap.train_context import setup_mlflow, setup_ray, start_config_watcher
+from bootstrap.train_config_loader import load_training_config
 from utils.constants import (
-    JOB_TRAINING, JOB_PRICING,
+    JOB_PRICING,
     ENV_DEV, ENV_QA, ENV_PROD,
     CFG_MODEL, CFG_MODEL_VERSION, CFG_PRICING_MODE,
     CFG_PRICING, CFG_ML, DELTA_LAKE,
     CFG_TOLERANCE, CFG_ENVIRONMENT, CFG_GOLDEN_CSV_FALLBACK,
     MODE_RULE, MODE_AI, MODE_HYBRID,
-    XGBOOST, VERSION, DEFAULT_ENVIRONMENT,
+    XGBOOST, VERSION,
 )
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Job registry
-# Maps job_name (must match config/jobs/<job>.yaml) to executor function.
-# To add a new job: create the YAML + executor, then register it here.
+# Executor registry
+# Only pricing needs special dispatch — everything else is a training job
+# and goes straight to run_training in train_executor.py.
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _get_executor(job: str):
     """
-    Return the executor callable for the given job name.
-    Imports are deferred so unrelated dependencies are never loaded.
-    """
-    if job == JOB_TRAINING:
-        from pipeline.train_executor import run_training
-        return run_training
+    Return the executor callable for *job*.
 
+    - pricing_job   → price_executor.run_pricing_job
+    - everything else → train_executor.run_training
+      (catalog_gap_analysis, price_prediction_training, any future training job)
+    """
     if job == JOB_PRICING:
         from pipeline.price_executor import run_pricing_job
         return run_pricing_job
 
-    raise ValueError(
-        f"Unknown job '{job}'. "
-        f"Register it in _get_executor() and add config/jobs/{job}.yaml."
-    )
+    # All training-style jobs share the same executor.
+    # The YAML is the only thing that changes between them.
+    from pipeline.train_executor import run_training
+    return run_training
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CLI
 # ─────────────────────────────────────────────────────────────────────────────
 
-def parse_args():
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="DSAI Launcher — training and pricing jobs",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(
         "--job",
-        default=JOB_TRAINING,
+        default="price_prediction_training",
         help="Job name — must match config/jobs/<job>.yaml",
     )
     parser.add_argument(
@@ -105,44 +113,33 @@ def parse_args():
     parser.add_argument("--golden-fallback", default=None, dest="golden_fallback",
                         help="[Pricing] Dev-only: golden CSV if Delta Lake unavailable")
 
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Main
 # ─────────────────────────────────────────────────────────────────────────────
 
-def main():
-    args   = parse_args()
+def main(argv: list[str] | None = None) -> dict:
+    args   = parse_args(argv)
     config = load_training_config(job=args.job, env=args.env)
 
-    # Sync config to versioned DB (same bootstrap for every job)
-    init_config_db()
-    bootstrap_config_from_yaml()
-    create_new_config_version(config, f"Launched job={args.job} env={args.env}")
-
-    watcher = None  # config watcher hook (start_config_watcher for live YAML edits)
-
-    # ── Resolve common overrides (CLI > YAML) ─────────────────────────────────
+    # CLI overrides win over YAML; YAML wins over hard-coded defaults
     model_name = args.model   or config.get(CFG_MODEL,         XGBOOST)
     version    = args.version or config.get(CFG_MODEL_VERSION, VERSION)
 
-
+    print(f"\n{'='*60}")
+    print(f"  Job   : {args.job}")
+    print(f"  Env   : {args.env}")
+    print(f"  Model : {model_name}  v{version}")
     if args.mode:
         print(f"  Mode  : {args.mode}")
     print(f"{'='*60}\n")
 
-    # ── Dispatch ──────────────────────────────────────────────────────────────
     executor = _get_executor(args.job)
 
-    if args.job == JOB_TRAINING:
-        result = executor(
-            model_name        = model_name,
-            version           = version,
-            csv_fallback_path = args.csv_fallback,
-        )
-
-    elif args.job == JOB_PRICING:
+    # ── Pricing — needs its own set of config keys ────────────────────────────
+    if args.job == JOB_PRICING:
         pricing_cfg = config.get(CFG_PRICING, {})
         ml_cfg      = config.get(CFG_ML, {})
         delta_cfg   = config.get(DELTA_LAKE, {})
@@ -157,14 +154,19 @@ def main():
             golden_fallback = args.golden_fallback or delta_cfg.get(CFG_GOLDEN_CSV_FALLBACK),
         )
 
+    # ── All training jobs ─────────────────────────────────────────────────────
+    # price_prediction_training, catalog_gap_analysis, anything new —
+    # they all go to the same run_training().  Only the YAML differs.
     else:
-        # Generic fallback — executors that only need (config,) can be added here
-        result = executor(config=config)
+        result = executor(
+            config            = config,
+            model_name        = model_name,
+            version           = version,
+            csv_fallback_path = args.csv_fallback,
+        )
 
     print(f"\nJob complete: {result}")
-
-    if watcher:
-        watcher.stop()
+    return result
 
 
 if __name__ == "__main__":

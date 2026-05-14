@@ -30,7 +30,7 @@ import joblib
 import pandas as pd
 import pyarrow as pa
 from deltalake import DeltaTable, write_deltalake
-from bootstrap.train_config_loader import get_active_config
+# from bootstrap.train_config_loader import get_active_config
 
 logger = logging.getLogger(__name__)
 
